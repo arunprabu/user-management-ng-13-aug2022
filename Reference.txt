@@ -1,11 +1,10 @@
-Agenda
---
-  Components
-
 
 Building Blocks 
 --
   Components
+    HTML 
+    CSS 
+    TS 
   Directives
   Services
   Interfaces
@@ -37,7 +36,7 @@ Project Structure
       footer/
         ...
         ...
-        
+
       
 
 
