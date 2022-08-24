@@ -4,6 +4,9 @@ Building Blocks
   Components
     HTML 
     CSS 
+      1. Global CSS (styles.css)
+      2. Comp-Specific CSS (app.comp.css, footer.comp.css, menu.comp.css )
+      3. Inline CSS (TODO)
     TS 
   Directives
   Services

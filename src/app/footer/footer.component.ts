@@ -10,7 +10,7 @@ import { Component, OnInit } from '@angular/core';
           <a class="nav-link" href="#">Back to Top</a>
         </li>
       </app-menu>
-      <p>Copyright 2022 | Arun</p>
+      <p class="redText">Copyright 2022 | Arun</p>
     </footer>
   `,
   styles: [

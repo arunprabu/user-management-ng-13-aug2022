@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root', // comp is exposed in a selector app-root 
   templateUrl: './app.component.html', // html 
-  styleUrls: ['./app.component.css'] // css 
+  styleUrls: ['./app.component.css'] // css
 })
 export class AppComponent {
   // ts 
