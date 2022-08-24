@@ -1,0 +1,43 @@
+Agenda
+--
+  Components
+
+
+Building Blocks 
+--
+  Components
+  Directives
+  Services
+  Interfaces
+  Pipes 
+  Guards
+  Modules
+
+Concepts
+---
+  Thinking in Angular
+  Data Binding 
+  Routing 
+  RxJS/Observables 
+
+
+Project Structure
+---
+  src/
+    app/
+      ...
+      ...
+      ...
+      ...
+      header/
+        ...
+        ...
+        ...
+        ...
+      footer/
+        ...
+        ...
+        
+      
+
+
