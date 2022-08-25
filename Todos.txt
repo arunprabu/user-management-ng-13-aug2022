@@ -1,4 +1,8 @@
 1. Work on Conditional Content Projection in Angular / Conditional Transclusion in Angular / 
     Multi-slot Content Projection in Angular
 
-2. Learn about tightly integrating bootstrap properly in Angular (right approach in updating in angular.json)
+2. Learn about tightly integrating bootstrap properly in Angular (right approach is updating in angular.json)
+
+3. Active menu should be set in menu.comp.html[TODO]
+4. Page Title should be changed [TODO]
+

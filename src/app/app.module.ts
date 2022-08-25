@@ -6,6 +6,10 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { MenuComponent } from './menu/menu.component';
+import { HomeComponent } from './home/home.component';
+import { ConceptsComponent } from './concepts/concepts.component';
+import { UsersComponent } from './users/users.component';
+import { AboutComponent } from './about/about.component';
 
 // Decorator 
 /* Main Switching Box */
@@ -14,7 +18,11 @@ import { MenuComponent } from './menu/menu.component';
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    MenuComponent
+    MenuComponent,
+    HomeComponent,
+    ConceptsComponent,
+    UsersComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
