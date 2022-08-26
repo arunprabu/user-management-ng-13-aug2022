@@ -5,4 +5,5 @@
 
 3. Active menu should be set in menu.comp.html[TODO]
 4. Page Title should be changed [TODO]
-
+5. // TODO: disable the button in event binding in concepts comp
+6. // TODO: change the label 'Clicked' in event binding in concepts comp

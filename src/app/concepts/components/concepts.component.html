@@ -22,20 +22,43 @@
 
       <h3>Interpolation</h3>
       <p>App Name: {{appName}}</p>
+      <!-- The following lines not recommended -->
       <div title="{{appName}}">Mouseover to see the tooltip</div>
       <input type="text" value="{{appName}}">
 
+      <hr>
+      <h3>Property Binding</h3>
+      <div [title]="companyName">Mouseover to see the company name</div>
+      <input type="text" [value]="companyName">
+
+      <hr>
+      <h3>Event Binding</h3>
+      <button onclick="handleClickMe()">Click Me -- will not work -- refer console.log</button>
+      <br>
+      <button (click)="handleClickMe($event)">Click Me</button>
+
+      <hr>
+      <h3>Two Way Binding</h3>
+      <p>{{courseName}}</p>
+      String Interpolation: <input type="text" value="{{courseName}}">
+      <br>
+      Property Binding: <input type="text" [value]="courseName">
+      <br>
+      Two Way Binding: <input type="text" [(ngModel)]="courseName">
     </div>
 
     <div class="tab-pane fade" id="cpb-databinding" role="tabpanel" aria-labelledby="cpb-databinding-tab">
       <h2>Parent to Child Comp Communication using Custom Property Binding </h2>
-      
-      
+      <app-cpb></app-cpb>
+      <!-- Step 3 of CPB -- Pass data to child comp thru custom property binding -->
+      <app-cpb [age]="30"></app-cpb>
+      <app-cpb [age]="40"></app-cpb>
+      <app-cpb [age]="myAge"></app-cpb>
     </div>
 
     <div class="tab-pane fade" id="ceb-databinding" role="tabpanel" aria-labelledby="ceb-databinding-tab">
       <h2>Child to Parent Comp Communication using Custom Event Binding</h2>
-
+      <p>Will discuss on Monday</p>
     </div>
 
     <div class="tab-pane fade" id="directives-tab" role="tabpanel" aria-labelledby="directives-tab">

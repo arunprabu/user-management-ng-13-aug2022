@@ -120,3 +120,44 @@ Routing
     in menu.comp.html , replace all href with routerLink
 
 ----
+
+Data Binding 
+--
+  TS => HTML 
+
+  1. Interpolation
+      TS => HTML 
+      {{}}
+
+  2. Property Binding 
+      TS => HTML 
+      []
+
+  3. Event Binding 
+      TS <= HTML 
+      ()
+
+  4. Two Way Binding
+      TS <=> HTML 
+      [(ngModel)]
+      Note: applicable in form elements input, textarea, select...
+
+  5. Custom Property Binding
+  6. Custom Event Binding
+
+
+Cross Component Communication
+--
+  1. Parent to Child Component Communication
+      Using Custom Property Binding
+
+  2. Child to Parent Component Communication
+      2.1 Using Custom Event Binding
+      2.2 Using @ViewChild() - // TODO: 
+
+  3. Any to Any Component Communication
+      Using Service, RxJS/Observables, Subscription
+      Prereq: Service, Dep Inj, RxJS/Observables, Subscription
+      
+----
+
