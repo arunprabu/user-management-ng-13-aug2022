@@ -7,3 +7,6 @@
 4. Page Title should be changed [TODO]
 5. // TODO: disable the button in event binding in concepts comp
 6. // TODO: change the label 'Clicked' in event binding in concepts comp
+7. // TODO: accessing child comp data from parent  Using @ViewChild()
+8. TODO: learn about finding index in *ngFor 
+

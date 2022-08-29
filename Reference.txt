@@ -10,7 +10,6 @@ Building Blocks
     TS 
 
   Directives
-
   Services
   Interfaces
   Pipes 
@@ -20,7 +19,7 @@ Building Blocks
 Concepts
 ---
   Thinking in Angular [DONE]
-  Data Binding [5/6 DONE]
+  Data Binding [6/6 DONE]
   Routing [DONE]
   RxJS/Observables 
 
@@ -168,12 +167,26 @@ Cross Component Communication
       Using Custom Property Binding
 
   2. Child to Parent Component Communication
-      2.1 Using Custom Event Binding
-      2.2 Using @ViewChild() - // TODO: 
+      2.1 Using Custom Event Binding // sending data from child comp to parent 
+      2.2 Using @ViewChild() - // TODO: accessing child comp data from parent 
 
   3. Any to Any Component Communication
       Using Service, RxJS/Observables, Subscription
       Prereq: Service, Dep Inj, RxJS/Observables, Subscription
       
 ----
+
+Directives
+--
+  * Special instructions to the DOM 
+  
+  1. Attribute Directives 
+      routerLink, routerLinkActive, routerLinkActiveOptions, ...
+
+  2. Structural Directives
+      *ngIf, *ngFor, ngSwitch
+
+
+
+
 

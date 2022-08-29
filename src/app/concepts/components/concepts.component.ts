@@ -17,6 +17,16 @@ export class ConceptsComponent implements OnInit {
 
   myAge = 50;
 
+  dataReceivedFromChildComp = {
+    name: '',
+    age: ''
+  };
+
+  // directives related
+  isLoggedIn = false;
+
+  skills = ['html', 'js', 'ts', 'ng'] ;
+
   constructor() { }
 
   ngOnInit(): void {
@@ -27,6 +37,12 @@ export class ConceptsComponent implements OnInit {
     alert('clicked');
     // TODO: disable the button
     // TODO: change the label 'Clicked' 
+  }
+
+  // Step 6: Let's handle the event -- and receive the data
+  handleProfileLoaded(event: any) {
+    console.log(event);
+    this.dataReceivedFromChildComp = event;
   }
 
 }
