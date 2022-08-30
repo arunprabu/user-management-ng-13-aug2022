@@ -20,7 +20,7 @@ export class CebComponent implements OnInit {
 
   // Custom Event -- creating event thru JS 
   // Step 2: Let's create custom event 
-    // Step 2.1 Create an obj for EventEmitter class
+  // Step 2.1 Create an obj for EventEmitter class
   @Output() profileLoaded = new EventEmitter(); // Step 2.2 Let's make it custom event -- with @Output()
   
   constructor() { }

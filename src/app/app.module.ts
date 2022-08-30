@@ -13,6 +13,7 @@ import { UsersComponent } from './users/users.component';
 import { AboutComponent } from './about/about.component';
 import { CpbComponent } from './concepts/components/cpb/cpb.component';
 import { CebComponent } from './concepts/components/ceb/ceb.component';
+import { ColorizerDirective } from './concepts/directives/colorizer.directive';
 
 // Decorator 
 /* Main Switching Box */
@@ -27,7 +28,8 @@ import { CebComponent } from './concepts/components/ceb/ceb.component';
     UsersComponent,
     AboutComponent,
     CpbComponent,
-    CebComponent
+    CebComponent,
+    ColorizerDirective
   ],
   imports: [
     BrowserModule, // {{}}, [], ()
