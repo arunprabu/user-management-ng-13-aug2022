@@ -27,4 +27,8 @@ export class AddUserComponent implements OnInit {
     });
   }
 
+  handleAddContact(): void {
+    console.log('submitted');
+    console.log(this.contactForm.value); // entire form state
+  }
 }

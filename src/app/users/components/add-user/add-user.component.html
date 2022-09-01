@@ -6,7 +6,7 @@
     </div>
     
     <!-- Step 3: patchup form tag with the FormGroup in ts -->
-    <form class="col-md-6 offset-md-3" [formGroup]="contactForm">
+    <form class="col-md-6 offset-md-3" [formGroup]="contactForm" (ngSubmit)="handleAddContact()">
       <!-- step 7: work on submission flow -- ref ts for step 8-->
       <div class="form-group row mb-3">
         <label for="staticName" class="col-sm-2 col-form-label">Name</label>
