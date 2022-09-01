@@ -8,8 +8,8 @@ Building Blocks
       2. Comp-Specific CSS (app.comp.css, footer.comp.css, menu.comp.css )
       3. Inline CSS (TODO)
     TS 
-
   Directives
+  
   Services
   Interfaces
   Pipes 
@@ -22,6 +22,8 @@ Concepts
   Data Binding [6/6 DONE]
   Routing [DONE]
   RxJS/Observables 
+  LifeCycle Hooks 
+  Http calls from Angular App
 
 
 Project Structure -
@@ -147,6 +149,8 @@ Data Binding
   2. Property Binding 
       TS => HTML 
       []
+      Learn about class bingind [ngClass]
+      LEarn about style binding [ngStyle]
 
   3. Event Binding 
       TS <= HTML 
@@ -189,4 +193,24 @@ Directives
 
 
 
+==
+CRU(D) App 
+--
+  Add User 
+    http://localhost:4200/users/add
 
+    ng g c users/components/add-user -s 
+  
+  List Users 
+    http://localhost:4200/users/
+
+  User Details 
+    http://localhost:4200/users/1
+
+    ng g c users/components/user-details -s 
+
+  Update User 
+    http://localhost:4200/users/1
+    
+  Delete User 
+    http://localhost:4200/users/1
