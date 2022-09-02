@@ -214,3 +214,26 @@ CRU(D) App
     
   Delete User 
     http://localhost:4200/users/1
+
+--
+Forms in Angular
+--
+  1. Template-Driven Forms 
+      * Made with html 
+      * will use directives for validations
+      * easiest type of form 
+
+      Disadv
+      --- 
+        * Not suitable for complex form validatios 
+        * Not suitable for Unit Testing 
+
+  2. Reactive Forms (RECOMMENDED)
+      * Made with HTML + TS 
+      * easier type of form 
+
+      Adv
+      ----
+        * suitable for complex form validations 
+        * suitable for Unit Testing 
+
