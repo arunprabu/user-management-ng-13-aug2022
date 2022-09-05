@@ -42,4 +42,15 @@ export class UsersService {
         return res; // 4. send it to the comp 
       }));
   }
+
+  updateUser(formData: any) {
+    console.log(formData);
+
+    return this.http.put(this.usersApiURL + '/' + formData.id, formData)
+      .pipe(map((res: any) => {     // 3. get the res from the REST API 
+        console.log(res);
+        return res; // 4. send it to the comp 
+      }));
+
+  }
 }

@@ -11,6 +11,8 @@ import { UsersService } from '../../services/users.service';
 export class UserDetailsComponent implements OnInit {
 
   userData: any;
+  dupUserData: any;
+  isUpdated = false;
 
   constructor(private usersService: UsersService, private route: ActivatedRoute) { }
 
@@ -25,5 +27,16 @@ export class UserDetailsComponent implements OnInit {
       });
   }
 
+  handleEditModalOpen(){
+    this.dupUserData = { ...this.userData } ; // shallow copy
+  }
 
+  handleUpdateUser(){
+    console.log(this.dupUserData); // submittable form data
+    this.usersService.updateUser(this.dupUserData)
+      .subscribe((res: any) => {
+        console.log(res);
+        this.isUpdated = true;
+      });
+  }
 }

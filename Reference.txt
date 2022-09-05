@@ -9,8 +9,8 @@ Building Blocks
       3. Inline CSS (TODO)
     TS 
   Directives
-  
   Services
+
   Interfaces
   Pipes 
   Guards
@@ -22,8 +22,11 @@ Concepts
   Data Binding [6/6 DONE]
   Routing [DONE]
   RxJS/Observables 
-  LifeCycle Hooks 
-  Http calls from Angular App
+  LifeCycle Hooks [DONE]
+  Http calls from Angular App [DONE]
+
+  Unit Testing [Tomorrow]
+
 
 
 Project Structure -
