@@ -10,12 +10,11 @@ Building Blocks
     TS 
   Directives
   Services
-
   Interfaces
-  Guards
 
-  Pipes 
-  Modules
+  Guards(10 mins)
+  Pipes (15 mins)
+  Modules (25 mins)
 
 Concepts
 ---
