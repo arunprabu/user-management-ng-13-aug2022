@@ -12,8 +12,9 @@ Building Blocks
   Services
 
   Interfaces
-  Pipes 
   Guards
+
+  Pipes 
   Modules
 
 Concepts
@@ -21,7 +22,7 @@ Concepts
   Thinking in Angular [DONE]
   Data Binding [6/6 DONE]
   Routing [DONE]
-  RxJS/Observables 
+  RxJS/Observables [DONE]
   LifeCycle Hooks [DONE]
   Http calls from Angular App [DONE]
 

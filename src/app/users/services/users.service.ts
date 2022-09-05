@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { catchError, map } from 'rxjs';
+import { catchError, map, Observable } from 'rxjs';
+import { IUser } from '../models/iuser';
 
 // Decorator
 @Injectable({
@@ -26,9 +27,9 @@ export class UsersService {
       }));
   }
 
-  getUsers() {
-    return this.http.get(this.usersApiURL)
-      .pipe(map((res: any) => {     // 3. get the res from the REST API 
+  getUsers(): Observable<IUser[]> | Observable<any>{
+    return this.http.get<IUser[]>(this.usersApiURL)
+      .pipe(map((res: IUser[]) => {     // 3. get the res from the REST API 
         console.log(res);
         // right place for us to sort, filter, remove, tranform, add, modify 
         return res; // 4. send it to the comp 
