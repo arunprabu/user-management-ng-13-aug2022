@@ -11,8 +11,8 @@ Building Blocks
   Directives
   Services
   Interfaces
-
-  Guards(10 mins)
+  Guards
+  
   Pipes (15 mins)
   Modules (25 mins)
 

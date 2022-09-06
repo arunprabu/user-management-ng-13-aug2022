@@ -27,6 +27,9 @@ export class ConceptsComponent implements OnInit {
 
   skills = ['html', 'js', 'ts', 'ng'] ;
 
+  randomTxt = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare orci eu maximus gravida.';
+  today: Date = new Date();
+
   constructor() { }
 
   ngOnInit(): void {

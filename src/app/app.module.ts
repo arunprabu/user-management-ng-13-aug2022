@@ -18,6 +18,7 @@ import { AddUserComponent } from './users/components/add-user/add-user.component
 import { UserDetailsComponent } from './users/components/user-details/user-details.component';
 import { HttpClientModule } from '@angular/common/http';
 import { LoginComponent } from './auth/components/login/login.component';
+import { EllipsisPipe } from './shared/pipes/ellipsis.pipe';
 
 // Decorator 
 /* Main Switching Box */
@@ -36,7 +37,8 @@ import { LoginComponent } from './auth/components/login/login.component';
     ColorizerDirective,
     AddUserComponent,
     UserDetailsComponent,
-    LoginComponent
+    LoginComponent,
+    EllipsisPipe
   ],
   imports: [
     BrowserModule, // {{}}, [], ()
