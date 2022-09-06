@@ -9,16 +9,14 @@ import { FooterComponent } from './shared/components/footer/footer.component';
 import { MenuComponent } from './shared/components/menu/menu.component';
 import { HomeComponent } from './home/home.component';
 import { ConceptsComponent } from './concepts/components/concepts.component';
-import { UsersComponent } from './users/components/users.component';
 import { AboutComponent } from './about/about.component';
 import { CpbComponent } from './concepts/components/cpb/cpb.component';
 import { CebComponent } from './concepts/components/ceb/ceb.component';
 import { ColorizerDirective } from './concepts/directives/colorizer.directive';
-import { AddUserComponent } from './users/components/add-user/add-user.component';
-import { UserDetailsComponent } from './users/components/user-details/user-details.component';
 import { HttpClientModule } from '@angular/common/http';
 import { LoginComponent } from './auth/components/login/login.component';
 import { EllipsisPipe } from './shared/pipes/ellipsis.pipe';
+import { UsersModule } from './users/users.module';
 
 // Decorator 
 /* Main Switching Box */
@@ -30,22 +28,19 @@ import { EllipsisPipe } from './shared/pipes/ellipsis.pipe';
     MenuComponent,
     HomeComponent,
     ConceptsComponent,
-    UsersComponent,
     AboutComponent,
     CpbComponent,
     CebComponent,
     ColorizerDirective,
-    AddUserComponent,
-    UserDetailsComponent,
     LoginComponent,
     EllipsisPipe
   ],
   imports: [
     BrowserModule, // {{}}, [], ()
     FormsModule, // [(ngModel)]
-    ReactiveFormsModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    UsersModule
   ],
   providers: [],
   bootstrap: [AppComponent] // AppModule is bootstrapped with a comp - AppComponent
