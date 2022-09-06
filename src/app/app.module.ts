@@ -17,6 +17,7 @@ import { ColorizerDirective } from './concepts/directives/colorizer.directive';
 import { AddUserComponent } from './users/components/add-user/add-user.component';
 import { UserDetailsComponent } from './users/components/user-details/user-details.component';
 import { HttpClientModule } from '@angular/common/http';
+import { LoginComponent } from './auth/components/login/login.component';
 
 // Decorator 
 /* Main Switching Box */
@@ -34,7 +35,8 @@ import { HttpClientModule } from '@angular/common/http';
     CebComponent,
     ColorizerDirective,
     AddUserComponent,
-    UserDetailsComponent
+    UserDetailsComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule, // {{}}, [], ()
